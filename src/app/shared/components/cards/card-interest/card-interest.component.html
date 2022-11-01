@@ -1,0 +1,11 @@
+<div class="dsc-card" *ngIf="dataInterest" routerLink="/panel/user/{{dataInterest.id}}">
+    <div class="dsc-card-img">
+        <img src="{{dataInterest.avatar}}" alt="">
+    </div>
+    <div class="dsc-card-info">
+        <h2>{{dataInterest.title}}</h2>
+        <p>{{dataInterest.description}}</p>
+        <p>{{dataInterest.link}}</p>
+        <!--<p *ngIf="data.work">{{data.work}}</p>-->
+    </div>
+</div>

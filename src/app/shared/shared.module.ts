@@ -7,6 +7,9 @@ import { TitleH1Component } from './components/titles/title-h1/title-h1.componen
 import * as fromComponents from './components';
 import { CardUserComponent } from './components/cards/card-user/card-user.component';
 import { RouterModule } from '@angular/router';
+import { CardInterestComponent } from './components/cards/card-interest/card-interest.component';
+//import { InterestComponent } from './modules/interest/interest/interest.component';
+//import { InterestListComponent } from './modules/interest/interest-list/interest-list.component';
  
 @NgModule({
   imports: [
@@ -16,7 +19,14 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     RouterModule
   ],
-  declarations: [...fromComponents.components, TitleH1Component, CardUserComponent],
+  declarations: [
+    ...fromComponents.components, 
+    TitleH1Component, 
+    CardUserComponent, 
+    CardInterestComponent/*,
+    InterestComponent,
+    InterestListComponent*/
+  ],
   exports: [
     FormsModule,
     ReactiveFormsModule,

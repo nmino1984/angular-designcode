@@ -18,6 +18,11 @@ const routes: Routes = [
           import('@modules/user/user.module').then( (m)=> m.UserModule)
       },
       {
+        path: 'interest',
+        loadChildren: ()=> 
+          import('@modules/user/user.module').then( (m)=> m.UserModule)
+      },
+      {
         path: '**',
         redirectTo: '/panel/user',
         pathMatch: 'full'
