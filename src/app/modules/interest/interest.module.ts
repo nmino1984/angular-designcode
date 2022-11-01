@@ -5,12 +5,10 @@ import { InterestComponent } from './interest/interest.component';
 import { InterestRoutingModule } from './interest-routing.module';
 
 
-
 @NgModule({
   declarations: [
-    InterestListComponent,
     InterestComponent,
-    InterestComponent
+    InterestListComponent
   ],
   imports: [
     SharedModule,
