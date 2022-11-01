@@ -20,7 +20,7 @@ const routes: Routes = [
       {
         path: 'interest',
         loadChildren: ()=> 
-          import('@modules/user/user.module').then( (m)=> m.UserModule)
+          import('@modules/interest/interest.module').then( (m)=> m.InterestModule)
       },
       {
         path: '**',

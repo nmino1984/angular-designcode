@@ -6,8 +6,8 @@ import { TitleH1Component } from './components/titles/title-h1/title-h1.componen
 
 import * as fromComponents from './components';
 import { CardUserComponent } from './components/cards/card-user/card-user.component';
-import { RouterModule } from '@angular/router';
 import { CardInterestComponent } from './components/cards/card-interest/card-interest.component';
+import { RouterModule } from '@angular/router';
 //import { InterestComponent } from './modules/interest/interest/interest.component';
 //import { InterestListComponent } from './modules/interest/interest-list/interest-list.component';
  

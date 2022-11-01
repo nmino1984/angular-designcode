@@ -5,7 +5,7 @@ import { InterestListComponent } from './interest-list/interest-list.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'interest',
     component: InterestListComponent
   },
   {
